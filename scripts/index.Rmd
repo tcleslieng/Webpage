@@ -1,9 +1,19 @@
 ---
-title: "index"
-author: ""
-date: ""
+title: "HTML template"
+author: "Leslie Ng"
+date: "06/05/2022"
 output: html_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../docs") })
 ---
 Here is your template for making a RMakrdown webpage. You can just delete this and make a new one.
+
+## Header 2 {.tabset .tabset-fade .tabset-pills}
+### Header 3.1 
+Happy
+
+### Header 3.2
+Birthday
+
+
+# Or [Bug of the week](https://github.com/bugoftheweek)
